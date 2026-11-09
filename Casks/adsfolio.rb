@@ -1,9 +1,9 @@
 cask "adsfolio" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.9.0"
-  sha256 arm: "bddb7b8220d88aa60ee6ef18dd5e07caa2afdaa5806e44c0d721eb06c6c11ee1",
-         intel: "291b05d77ee4dd12a4eb3b961d9d7702f0d7359e6327e0daaa6ba26dba61bf61"
+  version "0.10.0"
+  sha256 arm: "52e3a84f5d694f820f6a7e3f9dd50b6701b86818f8be3b7afce5fd390db7cd6e",
+         intel: "8e8121def2e428f1b1a56df6f4b2705be7c8dc782a28e657b6db6f07e5b6778a"
 
   url "https://github.com/ysBach/adsfolio/releases/download/v#{version}/adsfolio-macos-#{arch}.zip"
   name "ADSfolio"
